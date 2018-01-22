@@ -13,7 +13,7 @@ describe 'GithubService' do
     end
   end
 
-  describe '#authenticate!' do
+  xdescribe '#authenticate!' do
     before :each do
       @service = GithubService.new
       @service.authenticate!(ENV["GITHUB_CLIENT"], ENV["GITHUB_SECRET"], "20")
