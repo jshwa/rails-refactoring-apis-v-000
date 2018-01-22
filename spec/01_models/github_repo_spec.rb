@@ -1,6 +1,6 @@
 require_relative '../spec_helper'
 
-describe 'GithubRepo' do
+xdescribe 'GithubRepo' do
   describe "initialization with hash" do
     it "sets key 'name' to @name" do
       repo = GithubRepo.new({"name" => 'a-repo', "html_url" => 'http://path.com'})
